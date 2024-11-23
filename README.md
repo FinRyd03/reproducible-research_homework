@@ -6,7 +6,10 @@
 
 3. https://github.com/FinRyd03/logistic_growth.git; RScript in file `Logist_Exp_Growth_Comp.R`, and graph image in file `Logist_Exp_Curves.png`
 
-4. a. The two plots show two distinct random walks in 2D x-y space, over 500 time units. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
+4.
+
+a. The two plots show two distinct random walks in 2D x-y space, over 500 time units. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
+
 b. Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
 
 ## Instructions

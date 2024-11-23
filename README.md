@@ -1,6 +1,12 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+1. https://github.com/FinRyd03/logistic_growth.git
+
+2. https://github.com/FinRyd03/logistic_growth.git
+
+3. https://github.com/FinRyd03/logistic_growth.git
+
+4. 
 
 ## Instructions
 

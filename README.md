@@ -19,9 +19,23 @@ a. 33 rows and 13 columns
 
 b. A log transformation can be applied to the data. 
 
-c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results ` {$\alpha$} = 1182` and                 `{$\beta$} = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
+c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results `α = 1182` and `β = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
 
+d.   ggplot(logged_data, aes(x = log_genome_length, y = log_virion_volume)) + 
+     geom_point(color = "black", size = 2) +  
+     labs(
+       x = "log [Genome length (kb)]", 
+       y = "log [Virion volume (nm3)]") +
+     theme_bw() +
+     theme(
+       axis.title.x = element_text(face = "bold", size = 10),
+       axis.title.y = element_text(face = "bold", size = 10)) +
+     geom_smooth(method = "lm", se = TRUE, color = "royalblue2")
 
+e. x_predict_input <- data.frame(log_genome_length = 300)
+      predicted_y <- predict(lm_model, newdata = x_predict_input)
+      print(predicted_y)
+      `461.6432` 
 
 
 ## Instructions

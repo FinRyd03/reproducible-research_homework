@@ -1,10 +1,10 @@
 # Reproducible research: version control and R
 
-**1**. https://github.com/FinRyd03/logistic_growth; answer in `README.md` of main. branch. 
+**1**. https://github.com/fr6462003/logistic_growth; answer in `README.md` of main. branch. 
 
-**2**. https://github.com/FinRyd03/logistic_growth; answer in `README.md` of main. branch.
+**2**. https://github.com/fr6462003/logistic_growth; answer in `README.md` of main. branch.
 
-**3.** https://github.com/FinRyd03/logistic_growth; RScript in file `Logist_Exp_Growth_Comp.R`, and graph image in file `Logist_Exp_Curves.png`
+**3.** https://github.com/fr6462003/logistic_growth; RScript in file `Logist_Exp_Growth_Comp.R`, and graph image in file `Logist_Exp_Curves.png`
 
 **4.**
 

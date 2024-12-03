@@ -21,7 +21,10 @@ b. A log transformation can be applied to the data.
 
 c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results `α = 1182` and `β = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
 
-d.  
+d.  Attached image and code written below: 
+
+![image](https://github.com/user-attachments/assets/40f25a7e-68f5-429b-aa8d-df274505af60)
+
 ```
 ggplot(logged_data, aes(x = log_genome_length, y = log_virion_volume)) + 
      geom_point(color = "black", size = 2) +  
@@ -35,12 +38,11 @@ ggplot(logged_data, aes(x = log_genome_length, y = log_virion_volume)) +
      geom_smooth(method = "lm", se = TRUE, color = "royalblue2")`
 ```
 
-e. 
+e. Answer = `461.6432`; code attached below to produce answer. The predicted volume of a dsDNA virus with a genome of length $300kb$ is $461.6432nm^3$. 
 ```
 x_predict_input <- data.frame(log_genome_length = 300)`
       `predicted_y <- predict(lm_model, newdata = x_predict_input)`
-      `print(predicted_y)`
-      `461.6432` 
+      `print(predicted_y)` 
 ```
 
 

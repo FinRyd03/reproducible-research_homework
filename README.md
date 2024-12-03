@@ -12,6 +12,18 @@ a. The two plots show two distinct random walks in 2D x-y space, over 500 time u
 
 b. Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
 
+
+5. 
+
+a. 33 rows and 13 columns
+
+b. A log transformation can be applied to the data. 
+
+c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = \alphaX^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the $\alpha$ value is the exponent of the y-intercept. This yielded the results `$\alpha$ = 1182` and `$\beta$ = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
+
+
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.

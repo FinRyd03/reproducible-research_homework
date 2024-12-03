@@ -19,7 +19,7 @@ a. 33 rows and 13 columns
 
 b. A log transformation can be applied to the data. 
 
-c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = \alphaX^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the $\alpha$ value is the exponent of the y-intercept. This yielded the results `$\alpha$ = 1182` and `$\beta$ = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
+c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results `${\alpha}$ = 1182` and `${\beta}$ = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
 
 
 

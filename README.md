@@ -13,7 +13,7 @@ a. The two plots show two distinct random walks in 2D x-y space, over 500 time u
 b. Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
 
 
-5. 
+5. (Script for question 5 attached to `reproducible-research_homework` in `Genome_Length_Virion_Volume_Allometry.R`
 
 a. 33 rows and 13 columns
 

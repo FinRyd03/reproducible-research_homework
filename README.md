@@ -1,27 +1,27 @@
 # Reproducible research: version control and R
 
-1. https://github.com/FinRyd03/logistic_growth.git; answer in `README.md`
+**1**. https://github.com/FinRyd03/logistic_growth.git; answer in `README.md`
 
-2. https://github.com/FinRyd03/logistic_growth.git; answer in `README.md`
+**2**. https://github.com/FinRyd03/logistic_growth.git; answer in `README.md`
 
-3. https://github.com/FinRyd03/logistic_growth.git; RScript in file `Logist_Exp_Growth_Comp.R`, and graph image in file `Logist_Exp_Curves.png`
+**3.** https://github.com/FinRyd03/logistic_growth.git; RScript in file `Logist_Exp_Growth_Comp.R`, and graph image in file `Logist_Exp_Curves.png`
 
-4.
+**4.**
 
-a. The two plots show two distinct random walks in 2D x-y space, over 500 time units. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
+**a.** The two plots show two distinct random walks in 2D x-y space, over 500 time units. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
 
-b. Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
+**b.** Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
 
 
-5. (Script for question 5 attached to `reproducible-research_homework` in `Genome_Length_Virion_Volume_Allometry.R`
+**5.** (Script for question 5 attached to `reproducible-research_homework` in `Genome_Length_Virion_Volume_Allometry.R`
 
-a. 33 rows and 13 columns
+**a.** 33 rows and 13 columns
 
-b. A log transformation can be applied to the data. 
+**b.** A log transformation can be applied to the data. 
 
-c. A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results `α = 1182` and `β = 1.52`. These outputs are consistent with that found by Cui et al., (2014), as expressed in table 2. 
+**c.** A linear model can be constructed, and the `summary()` command executed in to find the model coefficients. The allometric law can be expressed as $y = {\alpha}X^{\beta}$. Therefore the $\beta$ value is the slope of the model, and the ${\alpha}$ value is the exponent of the y-intercept. This yielded the results `α = 1182` and `β = 1.52`. These outputs are consistent with that found by_ Cui et al., (2014)_, as expressed in table 2. 
 
-d.  Attached image and code written below: 
+**d.**  Attached image and code written below: 
 
 ![image](https://github.com/user-attachments/assets/40f25a7e-68f5-429b-aa8d-df274505af60)
 
@@ -38,7 +38,7 @@ ggplot(logged_data, aes(x = log_genome_length, y = log_virion_volume)) +
      geom_smooth(method = "lm", se = TRUE, color = "royalblue2")`
 ```
 
-e. Answer = `461.6432`; code attached below to produce answer. The predicted volume of a dsDNA virus with a genome of length $300kb$ is $461.6432nm^3$. 
+**e.** Answer = `461.6432`; code attached below to produce answer. The predicted volume of a dsDNA virus with a genome of length $300kb$ is $461.6432nm^3$. 
 ```
 x_predict_input <- data.frame(log_genome_length = 300)`
       `predicted_y <- predict(lm_model, newdata = x_predict_input)`

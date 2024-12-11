@@ -12,6 +12,12 @@
 
 **b.** Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis.
 
+**c.** Code can be found in `question-4-code` > `random.walk.R`. 
+
+**d.** ![CFBE3619-E862-453E-96C8-145016A6D8B6](https://github.com/user-attachments/assets/c92a1db6-7be0-484c-a89f-ae89e3351322)
+![1399BB1D-720B-4817-BAB8-C7A3AAC948CC](https://github.com/user-attachments/assets/e41c85e2-d764-4d20-bdff-7a78abdb6ec7)
+
+
 
 **5.** (Script for question 5 attached to `reproducible-research_homework` in `Genome_Length_Virion_Volume_Allometry.R`
 

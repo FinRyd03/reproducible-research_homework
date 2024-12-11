@@ -14,8 +14,15 @@
 
 **c.** Code can be found in `question-4-code` > `random.walk.R`. 
 
-**d.** ![CFBE3619-E862-453E-96C8-145016A6D8B6](https://github.com/user-attachments/assets/c92a1db6-7be0-484c-a89f-ae89e3351322)
-![1399BB1D-720B-4817-BAB8-C7A3AAC948CC](https://github.com/user-attachments/assets/e41c85e2-d764-4d20-bdff-7a78abdb6ec7)
+**d.** 
+
+<p align="center">
+     <img src="[Code_Compare_1.jpeg](https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_1.jpeg)" width="600" height="500">
+  </p>
+
+<p align="center">
+     <img src="[https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg](https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg)" width="600" height="500">
+  </p>
 
 
 

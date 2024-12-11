@@ -21,7 +21,7 @@
   </p>
 
 <p align="center">
-     <img src="https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg" width="500" height="200">
+     <img src="https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg" width="600" height="200">
   </p>
 
 

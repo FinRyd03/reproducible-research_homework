@@ -8,9 +8,9 @@
 
 **4.**
 
-**a.** The two plots show two distinct random walks in 2D x-y space, over 500 time units. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
+**a.** The two plots show two distinct random walks in 2D x-y space, over 500 time units. At each time unit, the walk can progress 0.25 distance units and records the data in a data frame, which can then be ploted using `plot()`. The gradient time legend indicates the start and end points of the random walks. Both began at `0,0` coordinates, whilst in the case of the first run of the code, plot 2 random walk ended at the coordinates `-6.5, 2.8`. The end-point of plot 1 random walk is not deciperable upon observation of the plot. Iterative executions of the code form different plots, due to the random changes in direct at each time step.
 
-**b.** Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis following initial sequence selection. 
+**b.** Random seeds are inputted into random functions allows reproducibility in an otherwise random sequence generator. Without a seed, a random number sequence generator will select numbers at random at each time step. Adding a seed to random sequence generator, the same set of numbers will always be drawn upon iterations. This 'locks' the random sequence generator, to allow reproducibility during analysis.
 
 
 **5.** (Script for question 5 attached to `reproducible-research_homework` in `Genome_Length_Virion_Volume_Allometry.R`

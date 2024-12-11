@@ -17,11 +17,11 @@
 **d.** 
 
 <p align="center">
-     <img src="[Code_Compare_1.jpeg](https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_1.jpeg)" width="600" height="500">
+     <img src="https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_1.jpeg" width="500" height="500">
   </p>
 
 <p align="center">
-     <img src="[https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg](https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg)" width="600" height="500">
+     <img src="https://github.com/fr6462003/reproducible-research_homework/blob/cde0d7a74baf6519e36c0ce12410aeaccbc31653/Code_Compare_2.jpeg" width="500" height="200">
   </p>
 
 
@@ -36,7 +36,9 @@
 
 **d.**  Attached image and code written below: 
 
-![image](https://github.com/user-attachments/assets/40f25a7e-68f5-429b-aa8d-df274505af60)
+<p align="center">
+     <img src="https://github.com/fr6462003/reproducible-research_homework/blob/9a042384c5981d18c5fd546d4b9b8f3c6693344b/ggplot_replication.jpeg" width="600" height="500">
+  </p>
 
 ```
 ggplot(logged_data, aes(x = log_genome_length, y = log_virion_volume)) + 
